@@ -11,7 +11,7 @@ void Exp_Mov_avg(int arr[], int n, int size_win) {
             B[i - size_win + 1] = EMA;
         }
     }
-    for (int i = 0; i < n - size_win + 1; i++) {
+    for (int i = 0; i<n-size_win+1; i++) {
         printf("%d ", B[i]);
     }
     printf("\n");
