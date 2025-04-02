@@ -52,6 +52,6 @@ void mergesort(int a[],int n,int L,int U){
 int main(){
     int arr[5]={5,4,3,2,1};
     quicksort(arr,5,0,4);
-    mergesort(arr,5,0,4);
+    n    
     return 0;
 }
