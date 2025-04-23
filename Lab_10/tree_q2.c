@@ -19,7 +19,7 @@ struct Node* newNode(int data) {
 
 
 int height(struct Node* root) {
-    if (root == NULL) return -1; // height in terms of edges
+    if (root == NULL) return -1;
     int leftHeight = height(root->left);
     int rightHeight = height(root->right);
     return 1 + (leftHeight > rightHeight ? leftHeight : rightHeight);
